@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.jumboImages{
+    margin-left: -40%;
+    overflow-x: hidden;
+
+    text-align: center;
+}
+.jumboImgJu{
+    position: relative;
+    left: -25%;
+    opacity: 0;
+}
+.jumboImgBi{
+    position: absolute;
+    left: 45%;
+    opacity: 0;
+    overflow-x: hidden;
+}
+
+.junieta{
+    background-color: hotpink;
+    color: white;
+}
+
+.cardA{
+    display: none;
+    opacity: 0;
+
+}
+
+.cardB{
+    display: none;
+    opacity: 0;
+}
+.closeA, .closeB{
+    width: 6rem;
+    color: white;
+    background-color: red;
+}
+.active{
+
+    display: inline;
+    opacity: 1;
+    transition: 0.7s ease-in;
+}
+.activeJunieta{
+    opacity: 1;
+    transform: translateX(25%);
+    transition: 1.7s ease-in;
+}
+.activeBilly{
+    opacity: 1;
+    transform: translateX(-22%);
+    transition: 1.7s ease-in;
+}
+
+
+@media only screen  and (min-width : 940px) {
+    .jumboImages{
+        margin-left: 20%;
+        overflow-x: hidden;
+        text-align: center;
+    }
+
+
+}
