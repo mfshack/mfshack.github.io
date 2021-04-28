@@ -15,19 +15,19 @@ function load(){
 
 
 buttonBlue.addEventListener('click', () =>{
-    profileA.classList.add('active')
+    profileA.classList.add('profileStyle')
 
 })
 buttonPink.addEventListener('click', () =>{
-    profileB.classList.add('active')
+    profileB.classList.add('profileStyle')
 
 })
 
 close.addEventListener('click', () =>{
-    profileA.classList.remove('active')
+    profileA.classList.remove('profileStyle')
 })
 close2.addEventListener('click', () =>{
-    profileB.classList.remove('active')
+    profileB.classList.remove('profileStyle')
 })
 
 window.smoothScroll = function(target) {
