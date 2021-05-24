@@ -1,2 +1,2 @@
 # milstack.github.io
-First website online
+Practice using HTML, CSS and JavaScript
